@@ -1,3 +1,68 @@
+@import url("https://fonts.googleapis.com/css?family=Material+Icons+Outlined");
+
+.content {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.searchPanel {
+  flex-basis: 150px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  padding: 0 2%;@import url("https://fonts.googleapis.com/css?family=Merriweather");
+}
+
+form {
+  display: flex;
+  gap: 2px;
+}
+
+input[type=text] {
+  height: 2rem;
+  font-size: 2rem;
+  border: solid 1px grey;
+  border-radius: 3px;
+}
+
+button {
+  height: 2.3rem;
+  width: 2.3rem;
+  border: solid 1px grey;
+  border-radius: 3px;
+  background-color: rgb(248, 138, 138);
+}
+
+.dashboard {
+  flex: 1;
+  border: 1px solid red;
+  display: flex;
+}
+
+.infoPanel {
+  border: 1px solid blue;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.iconPanel {
+  border: 1px solid green;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-height: 60vh;
+  max-width: 60vw;
+}
+
 h1 {
-  color: red;
+  font-size: 50px;
 }
