@@ -9,6 +9,7 @@ Current functionality:
 * Babel transpiling for browser compatability 
 
 To add: 
+* add Celsius / Farenheit conversion button (just toggle existing '.hidden' on temp spans)
 * search suggestions + ...
 * order results by relevance (eg. population: Dublin, IE > Dublin, US, or location: what is user's current loc?)
 * more styling, (eg. nicer weather icons...)
