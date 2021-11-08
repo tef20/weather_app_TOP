@@ -55,6 +55,7 @@ function renderSearchPanel(container) {
     if (searchBar.value) {
       console.log(searchBar.value);
       events.emit("formSubmit", searchBar.value);
+      searchBar.value = "";
     }
   });
 }

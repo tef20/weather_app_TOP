@@ -7,7 +7,7 @@
 }
 
 .searchPanel {
-  flex-basis: 150px;
+  flex-basis: 90px;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -36,22 +36,24 @@ button {
 }
 
 .dashboard {
+  padding: 0 70px;
   flex: 1;
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: flex;
 }
 
 .infoPanel {
-  border: 1px solid blue;
+  /* border: 1px solid blue; */
   flex: 1;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
+  gap: 18px;
 }
 
 .iconPanel {
-  border: 1px solid green;
+  /* border: 1px solid green; */
   flex: 1;
   display: flex;
   flex-direction: column;
